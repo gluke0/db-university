@@ -44,17 +44,23 @@ Query con SELECT
 		WHERE name 
 		LIKE 'E%';
 
-	4. Selezionare tutti gli studenti che si sono iscritti nel 2021 (743)
+	4. Selezionare tutti gli studenti che si sono iscritti nel 2021 (734)
 
-
+		SELECT * 
+		FROM students 
+		WHERE YEAR(enrolment_date) = 2021;
 
 	5. Selezionare tutti i corsi che non hanno un sito web (676)
 
+		SELECT * 
+		FROM courses 
+		WHERE website is NULL;
 
+	6. Selezionare tutti gli insegnanti che hanno il numero di telefono (50)
 
-	6. Selezionare tutti i corsi che hanno il numero di telefono (50)
-
-
+		SELECT * 
+		FROM teachers 
+		WHERE phone IS NOT NULL;
 
 	7. Selezionare tutti gli appelli d’esame dei mesi di giugno e luglio 2020 (2634)
 
