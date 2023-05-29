@@ -29,10 +29,36 @@ Query con GROUP BY
 Query con SELECT
 
 	1. Selezionare tutti gli insegnanti
+
+		SELECT * FROM `teachers`;
+
 	2. Selezionare tutti i referenti per ogni dipartimento
+
+		SELECT head_of_department, name 
+		FROM departments;
+
 	3. Selezionare tutti gli studenti il cui nome inizia per “E” (373)
+
+		SELECT * 
+		FROM students 
+		WHERE name 
+		LIKE 'E%';
+
 	4. Selezionare tutti gli studenti che si sono iscritti nel 2021 (743)
+
+
+
 	5. Selezionare tutti i corsi che non hanno un sito web (676)
+
+
+
 	6. Selezionare tutti i corsi che hanno il numero di telefono (50)
+
+
+
 	7. Selezionare tutti gli appelli d’esame dei mesi di giugno e luglio 2020 (2634)
+
+
+
 	8. Qual è il numero totale degli studenti iscritti? (5000)
+
