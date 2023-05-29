@@ -1,9 +1,25 @@
 Query con GROUP BY
 
 	1. Contare i corsi raggruppati per CFU
+
+		SELECT COUNT(*) as courses_number, cfu 
+		FROM courses 
+		GROUP BY cfu;
+
 	2. Contare gli studenti raggruppati per anno di nascita
+
+		SELECT COUNT(*) as students_number, YEAR(date_of_birth) as year_of_birth
+		FROM students 
+		GROUP BY YEAR(date_of_birth);
+
 	3. Selezionare il voto più basso dato ad ogni appello d’esame
+
+
+
 	4. Contare gli appelli d’esame del mese di luglio raggruppati per giorno
+
+
+
 
  
 Query con SELECT
