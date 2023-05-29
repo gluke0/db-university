@@ -14,12 +14,16 @@ Query con GROUP BY
 
 	3. Selezionare il voto più basso dato ad ogni appello d’esame
 
-
+		SELECT exam_id, MIN(vote)
+		FROM exam_student 
+		GROUP BY exam_id;
 
 	4. Contare gli appelli d’esame del mese di luglio raggruppati per giorno
 
-
-
+		SELECT DAY(date), COUNT(*) as exams_number
+		FROM exams 
+		WHERE MONTH(date) = 7 
+		GROUP BY DAY(date);
 
  
 Query con SELECT
