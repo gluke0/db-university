@@ -64,7 +64,12 @@ Query con SELECT
 
 	7. Selezionare tutti gli appelli d’esame dei mesi di giugno e luglio 2020 (2634)
 
-
+		SELECT * 
+		FROM exams 
+		WHERE MONTH(date) IN (6,7) 
+		AND YEAR(date) = 2020;
 
 	8. Qual è il numero totale degli studenti iscritti? (5000)
 
+		SELECT * 
+		FROM students;
