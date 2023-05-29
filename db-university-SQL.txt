@@ -1,0 +1,18 @@
+Query con GROUP BY
+
+	1. Contare i corsi raggruppati per CFU
+	2. Contare gli studenti raggruppati per anno di nascita
+	3. Selezionare il voto più basso dato ad ogni appello d’esame
+	4. Contare gli appelli d’esame del mese di luglio raggruppati per giorno
+
+ 
+Query con SELECT
+
+	1. Selezionare tutti gli insegnanti
+	2. Selezionare tutti i referenti per ogni dipartimento
+	3. Selezionare tutti gli studenti il cui nome inizia per “E” (373)
+	4. Selezionare tutti gli studenti che si sono iscritti nel 2021 (743)
+	5. Selezionare tutti i corsi che non hanno un sito web (676)
+	6. Selezionare tutti i corsi che hanno il numero di telefono (50)
+	7. Selezionare tutti gli appelli d’esame dei mesi di giugno e luglio 2020 (2634)
+	8. Qual è il numero totale degli studenti iscritti? (5000)
